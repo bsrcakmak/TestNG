@@ -16,4 +16,5 @@ public class TechproLoginPage {
         @FindBy(xpath = "//button[@type='submit']")
         public WebElement submitButton;
 
+
 }
