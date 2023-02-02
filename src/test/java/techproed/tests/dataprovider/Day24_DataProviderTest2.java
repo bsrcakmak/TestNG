@@ -12,6 +12,9 @@ import java.io.IOException;
 
 public class Day24_DataProviderTest2 {
 
+    // @DataProvider anotaiton'ini kullandigimiz bu methodu, iliskilendirdigimiz test methodlarina data yollamak icin kullaniriz,
+    // datalari loop kullanmadan bir yerden bir yere kopru gibi baglar
+
     @DataProvider
     public Object[][] customerData(){
         Object[][] musteriBilgileri = {

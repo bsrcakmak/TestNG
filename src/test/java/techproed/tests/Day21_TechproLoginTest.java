@@ -8,7 +8,7 @@ import techproed.utilities.Driver;
 
 public class Day21_TechproLoginTest {
 
-    @Test
+    @Test(groups = "regression-tests")
     public void loginTest(){
         Driver.getDriver().get("https://testcenter.techproeducation.com/index.php?page=form-authentication");
         TechproLoginPage techproLoginPage = new TechproLoginPage();
