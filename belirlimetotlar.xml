@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Administrator/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/Day19_TestNGAnnotations.java">
+        <classes>
+            <class name="techproed.tests.Day19_TestNGAnnotations">
+                <methods>
+                    <include name="test7"/>    <!-- burada istedigim kadar method ekleyebiliriz -->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+<!-- include : include olan method isimlerini calistirir digerlerini calistirmaz
+     <include name="test7"/>  sadece test7 yi calistir
+     exclude : exclude olan methodlarin disinda kalan methodlarin heosini calistirir
+     <exclude name="test7"/>  test7 disinda kalan butun methodlari calistir -->
