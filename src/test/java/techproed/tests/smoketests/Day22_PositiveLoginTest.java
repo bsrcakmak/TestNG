@@ -32,4 +32,6 @@ public class Day22_PositiveLoginTest {
         blueRentalLoginPage.loginButton.click();
         Assert.assertTrue(blueRentalHomePage.userID.isDisplayed());
     }
+
+
 }

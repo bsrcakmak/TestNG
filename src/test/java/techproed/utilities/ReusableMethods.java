@@ -240,6 +240,8 @@ public class ReusableMethods {
      *
      * @param element
      */
+
+    // Eger element gorunurse gecer gorunmezse failed eder ve mesaj yazdirir
     public static void verifyElementDisplayed(WebElement element) {
         try {
             assertTrue("Element not visible: " + element, element.isDisplayed());
